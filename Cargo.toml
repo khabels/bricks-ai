@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "crates/bricks-ai-core",
+    "crates/bricks-ai-app",
+    "crates/bricks-ai-ui",
+    "crates/bricks-ai-runtime"
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/your-org/bricks-ai"
+authors = ["Bricks AI contributors"]

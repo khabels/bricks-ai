@@ -1,0 +1,20 @@
+[package]
+name = "bricks-ai-app"
+version = "0.1.0"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]
+bricks-ai-core = { path = "../bricks-ai-core" }
+bricks-ai-runtime = { path = "../bricks-ai-runtime" }
+bincode = "1"
+dotenvy = "0.15"
+# native-tls avoids the `ring`/rustls pregenerated object issue that can happen on Windows MSVC.
+reqwest = { version = "0.12", features = ["blocking", "json", "native-tls"], default-features = false }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+crossterm = "0.28"
+indicatif = "0.18.4"

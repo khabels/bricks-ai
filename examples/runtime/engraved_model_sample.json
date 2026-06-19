@@ -1,0 +1,13 @@
+{
+  "cases": [
+    {"grid":0,"page":0,"case":12,"weight":0.9999945,"confidence":0.37236765},
+    {"grid":1,"page":0,"case":45,"weight":1.0000019,"confidence":0.57796913},
+    {"grid":2,"page":0,"case":255,"weight":1.0000098,"confidence":0.57796913},
+    {"grid":3,"page":0,"case":255,"weight":0.99931735,"confidence":0.37236765}
+  ],
+  "correlations": [
+    {"from":{"grid":0,"page":0,"case":12},"to":{"grid":1,"page":0,"case":45},"coefficient":0.2000761,"score":0.049997628},
+    {"from":{"grid":1,"page":0,"case":45},"to":{"grid":2,"page":0,"case":255},"coefficient":0.20001751,"score":0.049997628},
+    {"from":{"grid":2,"page":0,"case":255},"to":{"grid":3,"page":0,"case":255},"coefficient":0.2000058,"score":0.049997628}
+  ]
+}
